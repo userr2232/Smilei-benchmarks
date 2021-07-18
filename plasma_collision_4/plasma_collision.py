@@ -6,7 +6,7 @@ import math
 
 l0 = 2.0*math.pi        # laser wavelength
 t0 = l0                 # optical cicle
-Lsim = [40.*l0,5.*l0]   # length of the simulation
+Lsim = [80.*l0,10.*l0]   # length of the simulation
 Tsim = 30.*t0           # duration of the simulation
 resx = 50.              # nb of cells in on laser wavelength
 rest = 75.              # time of timestep in one optical cycle 
@@ -19,7 +19,7 @@ Main(
     cell_length = [l0/resx,l0/resx],
     grid_length  = Lsim,
     
-    number_of_patches = [ 64, 4 ],
+    number_of_patches = [ 32, 4 ],
     
     timestep = t0/rest,
     simulation_time = Tsim,
