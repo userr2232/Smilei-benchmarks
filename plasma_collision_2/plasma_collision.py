@@ -6,7 +6,7 @@ import math
 
 l0 = 2.0*math.pi        # laser wavelength
 t0 = l0                 # optical cicle
-Lsim = [80.*l0,10.*l0]   # length of the simulation
+Lsim = [40.*l0,5.*l0]   # length of the simulation
 Tsim = 30.*t0           # duration of the simulation
 resx = 50.              # nb of cells in on laser wavelength
 rest = 75.              # time of timestep in one optical cycle 
@@ -19,7 +19,7 @@ Main(
     cell_length = [l0/resx,l0/resx],
     grid_length  = Lsim,
     
-    number_of_patches = [ 32, 4 ],
+    number_of_patches = [ 16, 2 ],
     
     timestep = t0/rest,
     simulation_time = Tsim,
@@ -41,7 +41,7 @@ fm = trapezoidal(1., xvacuum=11.*l0, xplateau=32.*l0)
 
 Species(
 	name = 'pon1',
-	position_initialization = 'regular',
+	position_initialization = 'random',
 	momentum_initialization = 'mj',
 	ionization_model = 'none',
 	particles_per_cell = 8,
@@ -59,7 +59,7 @@ Species(
 )
 Species(
 	name = 'eon1',
-	position_initialization = 'regular',
+	position_initialization = 'random',
 	momentum_initialization = 'mj',
 	ionization_model = 'none',
 	particles_per_cell = 8,
@@ -77,7 +77,7 @@ Species(
 )
 Species(
 	name = 'pon2',
-	position_initialization = 'regular',
+	position_initialization = 'random',
 	momentum_initialization = 'mj',
 	ionization_model = 'none',
 	particles_per_cell = 8,
@@ -95,7 +95,7 @@ Species(
 )
 Species(
 	name = 'eon2',
-	position_initialization = 'regular',
+	position_initialization = 'random',
 	momentum_initialization = 'mj',
 	ionization_model = 'none',
 	particles_per_cell = 8,

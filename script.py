@@ -5,8 +5,8 @@ subdirs = ["plasma_collision_1", "plasma_collision_2", "plasma_collision_3", "pl
 smilei_path = Path("/home/reynaldo.rojas/smilei/Smilei")
 benchmarks_path = Path(smilei_path / "Smilei-benchmarks")
 for subdir in subdirs:
-    i = 8
-    while i <= 64:
+    i = 4
+    while i <= 32:
         subprocess.run(f"mkdir {i}_procs".split(), cwd=str(benchmarks_path/subdir))
         subprocess.run(f"cp plasma_collision.py {i}_procs".split(), cwd=str(benchmarks_path/subdir))
         subprocess.run(f"cp smilei {i}_procs".split(), cwd=str(benchmarks_path/subdir))
