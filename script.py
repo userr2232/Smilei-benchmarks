@@ -1,7 +1,7 @@
 import subprocess
 from pathlib import Path
 
-subdirs = ["plasma_collision_1", "plasma_collision_2", "plasma_collision_3", "plasma_collision_4"]
+subdirs = ["plasma_collision_3", "plasma_collision_4"]
 smilei_path = Path("/home/reynaldo.rojas/smilei/Smilei")
 benchmarks_path = Path(smilei_path / "Smilei-benchmarks")
 for subdir in subdirs:
