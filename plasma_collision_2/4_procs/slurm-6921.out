@@ -1,26 +1,18 @@
-[g001:27284] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27284] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27285] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27285] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27279] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27279] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27280] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27280] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27282] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27282] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27281] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27281] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27286] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27286] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
-[g001:27283] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
-[g001:27283] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[n002:32446] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[n002:32446] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[n002:32447] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[n002:32447] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[n002:32449] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[n002:32449] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[n002:32448] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[n002:32448] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
 --------------------------------------------------------------------------
 By default, for Open MPI 4.0 and later, infiniband ports on a device
 are not used by default.  The intent is to use UCX for these devices.
 You can override this policy by setting the btl_openib_allow_ib MCA parameter
 to true.
 
-  Local host:              g001
+  Local host:              n002
   Local adapter:           mlx5_0
   Local port:              1
 
@@ -31,51 +23,7 @@ are not used by default.  The intent is to use UCX for these devices.
 You can override this policy by setting the btl_openib_allow_ib MCA parameter
 to true.
 
-  Local host:              g001
-  Local adapter:           mlx5_0
-  Local port:              1
-
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-By default, for Open MPI 4.0 and later, infiniband ports on a device
-are not used by default.  The intent is to use UCX for these devices.
-You can override this policy by setting the btl_openib_allow_ib MCA parameter
-to true.
-
-  Local host:              g001
-  Local adapter:           mlx5_0
-  Local port:              1
-
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-By default, for Open MPI 4.0 and later, infiniband ports on a device
-are not used by default.  The intent is to use UCX for these devices.
-You can override this policy by setting the btl_openib_allow_ib MCA parameter
-to true.
-
-  Local host:              g001
-  Local adapter:           mlx5_0
-  Local port:              1
-
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-By default, for Open MPI 4.0 and later, infiniband ports on a device
-are not used by default.  The intent is to use UCX for these devices.
-You can override this policy by setting the btl_openib_allow_ib MCA parameter
-to true.
-
-  Local host:              g001
-  Local adapter:           mlx5_0
-  Local port:              1
-
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-By default, for Open MPI 4.0 and later, infiniband ports on a device
-are not used by default.  The intent is to use UCX for these devices.
-You can override this policy by setting the btl_openib_allow_ib MCA parameter
-to true.
-
-  Local host:              g001
+  Local host:              n002
   Local adapter:           mlx5_0
   Local port:              1
 
@@ -83,19 +31,13 @@ to true.
 --------------------------------------------------------------------------
 WARNING: There was an error initializing an OpenFabrics device.
 
-  Local host:   g001
+  Local host:   n002
   Local device: mlx5_0
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 WARNING: There was an error initializing an OpenFabrics device.
 
-  Local host:   g001
-  Local device: mlx5_0
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-WARNING: There was an error initializing an OpenFabrics device.
-
-  Local host:   g001
+  Local host:   n002
   Local device: mlx5_0
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -104,7 +46,7 @@ are not used by default.  The intent is to use UCX for these devices.
 You can override this policy by setting the btl_openib_allow_ib MCA parameter
 to true.
 
-  Local host:              g001
+  Local host:              n002
   Local adapter:           mlx5_0
   Local port:              1
 
@@ -112,7 +54,7 @@ to true.
 --------------------------------------------------------------------------
 WARNING: There was an error initializing an OpenFabrics device.
 
-  Local host:   g001
+  Local host:   n002
   Local device: mlx5_0
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -121,7 +63,7 @@ are not used by default.  The intent is to use UCX for these devices.
 You can override this policy by setting the btl_openib_allow_ib MCA parameter
 to true.
 
-  Local host:              g001
+  Local host:              n002
   Local adapter:           mlx5_0
   Local port:              1
 
@@ -129,25 +71,7 @@ to true.
 --------------------------------------------------------------------------
 WARNING: There was an error initializing an OpenFabrics device.
 
-  Local host:   g001
-  Local device: mlx5_0
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-WARNING: There was an error initializing an OpenFabrics device.
-
-  Local host:   g001
-  Local device: mlx5_0
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-WARNING: There was an error initializing an OpenFabrics device.
-
-  Local host:   g001
-  Local device: mlx5_0
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-WARNING: There was an error initializing an OpenFabrics device.
-
-  Local host:   g001
+  Local host:   n002
   Local device: mlx5_0
 --------------------------------------------------------------------------
                     _            _
@@ -166,7 +90,7 @@ WARNING: There was an error initializing an OpenFabrics device.
 	 Parsing pyinit.py
 	 Parsing 4.6-237-g21b2d0b-master
 	 Parsing pyprofiles.py
-	 Parsing /home/reynaldo.rojas/smilei/Smilei/Smilei-benchmarks/plasma_collision_3/8_procs/plasma_collision.py
+	 Parsing /home/reynaldo.rojas/smilei/Smilei/Smilei-benchmarks/plasma_collision_2/4_procs/plasma_collision.py
 	 Parsing pycontrol.py
 	 Check for function preprocess()
 	 python preprocess function does not exist
@@ -205,7 +129,7 @@ WARNING: There was an error initializing an OpenFabrics device.
  --------------------------------------------------------------------------------
 	 applied topology for periodic BCs in y-direction
 	 MPI_THREAD_MULTIPLE enabled
-	 Number of MPI processes: 8
+	 Number of MPI processes: 4
 	 Number of threads per MPI process : 1
  
 	 Number of patches: 16 x 2
@@ -244,6 +168,10 @@ WARNING: There was an error initializing an OpenFabrics device.
 		 Approximately 10% of patches created
 		 Approximately 20% of patches created
 		 Approximately 30% of patches created
+		 Approximately 40% of patches created
+		 Approximately 50% of patches created
+		 Approximately 60% of patches created
+		 Approximately 70% of patches created
 	 All patches created
  
 
@@ -259,8 +187,8 @@ WARNING: There was an error initializing an OpenFabrics device.
 
  Minimum memory consumption (does not include all temporary buffers)
  --------------------------------------------------------------------------------
-              Particles: Master 59 MB;   Max 59 MB;   Global 0.454 GB
-                 Fields: Master 6 MB;   Max 6 MB;   Global 0.0524 GB
+              Particles: Master 71 MB;   Max 71 MB;   Global 0.272 GB
+                 Fields: Master 13 MB;   Max 13 MB;   Global 0.0524 GB
             scalars.txt: Master 0 MB;   Max 0 MB;   Global 0 GB
         Performances.h5: Master 0 MB;   Max 0 MB;   Global 0 GB
  
@@ -272,9 +200,9 @@ WARNING: There was an error initializing an OpenFabrics device.
 
  Initializing E field through Poisson solver
  --------------------------------------------------------------------------------
-	 Poisson solver converged at iteration: 3053, relative err is ctrl = 0.980066 x 1e-14
+	 Poisson solver converged at iteration: 2766, relative err is ctrl = 0.992569 x 1e-14
 	 Poisson equation solved. Maximum err = 0.000000 at i= -1
- Time in Poisson : 1.584964
+ Time in Poisson : 3.270589
 	 Applying external fields at time t = 0
 	 Applying prescribed fields at time t = 0
 	 Applying antennas at time t = 0
@@ -290,10 +218,10 @@ WARNING: There was an error initializing an OpenFabrics device.
 
  Species creation summary
  --------------------------------------------------------------------------------
-		 Species 0 (pon1) created with 1250000 particles
-		 Species 1 (eon1) created with 1250000 particles
-		 Species 2 (pon2) created with 3625000 particles
-		 Species 3 (eon2) created with 3625000 particles
+		 Species 0 (pon1) created with 750000 particles
+		 Species 1 (eon1) created with 750000 particles
+		 Species 2 (pon2) created with 2175000 particles
+		 Species 3 (eon2) created with 2175000 particles
  
 
  Expected disk usage (approximate)
@@ -302,9 +230,9 @@ WARNING: There was an error initializing an OpenFabrics device.
 	    especially when particles are created at runtime (ionization, pair generation, etc.)
 	 
 	 Expected disk usage for diagnostics:
-		 File Performances.h5: 188.74 K
+		 File Performances.h5: 154.43 K
 		 File scalars.txt: 0 bytes
-	 Total disk usage for diagnostics: 188.74 K
+	 Total disk usage for diagnostics: 154.43 K
 	 
  
 
@@ -317,18 +245,18 @@ WARNING: There was an error initializing an OpenFabrics device.
 
  Time-Loop started: number of time-steps n_time = 2250
  --------------------------------------------------------------------------------
-	[WARNING] The following `push time` assumes a global number of 8 cores (hyperthreading is unknown)
+	[WARNING] The following `push time` assumes a global number of 4 cores (hyperthreading is unknown)
     timestep       sim time   cpu time [s]   (    diff [s] )   push time [ns]
-    225/2250     1.8891e+01     8.0096e+01   (  8.0096e+01 )             292 
-    450/2250     3.7741e+01     1.8457e+02   (  1.0447e+02 )             380 
-    675/2250     5.6591e+01     3.1097e+02   (  1.2641e+02 )             460 
-    900/2250     7.5440e+01     4.5682e+02   (  1.4585e+02 )             531 
-   1125/2250     9.4290e+01     6.1907e+02   (  1.6225e+02 )             591 
-   1350/2250     1.1314e+02     7.9755e+02   (  1.7848e+02 )             650 
-   1575/2250     1.3199e+02     9.9035e+02   (  1.9280e+02 )             703 
-   1800/2250     1.5084e+02     1.1885e+03   (  1.9817e+02 )             722 
-   2025/2250     1.6969e+02     1.3809e+03   (  1.9239e+02 )             701 
-   2250/2250     1.8854e+02     1.5626e+03   (  1.8168e+02 )             662 
+    225/2250     1.8891e+01     9.3415e+01   (  9.3415e+01 )             283 
+    450/2250     3.7741e+01     2.0242e+02   (  1.0901e+02 )             331 
+    675/2250     5.6591e+01     3.2378e+02   (  1.2135e+02 )             368 
+    900/2250     7.5440e+01     4.5683e+02   (  1.3305e+02 )             404 
+   1125/2250     9.4290e+01     6.0086e+02   (  1.4403e+02 )             437 
+   1350/2250     1.1314e+02     7.5518e+02   (  1.5432e+02 )             468 
+   1575/2250     1.3199e+02     9.2013e+02   (  1.6496e+02 )             501 
+   1800/2250     1.5084e+02     1.0917e+03   (  1.7155e+02 )             521 
+   2025/2250     1.6969e+02     1.2649e+03   (  1.7321e+02 )             526 
+   2250/2250     1.8854e+02     1.4383e+03   (  1.7343e+02 )             527 
  
 
  End time loop, time dual = 1.8854e+02
@@ -337,20 +265,20 @@ WARNING: There was an error initializing an OpenFabrics device.
 
  Time profiling : (print time > 0.001%)
  --------------------------------------------------------------------------------
- Time_in_time_loop	1.5626e+03	9.9904e+01% coverage
- 	           Particles	5.963706e+02	3.8e+01%
- 	             Maxwell	2.438795e+00	    <1%
- 	         Diagnostics	7.620981e+00	    <1%
- 	      Sync Particles	4.119327e+02	2.6e+01%
- 	         Sync Fields	8.687307e+01	5.6e+00%
- 	      Sync Densities	4.562156e+02	2.9e+01%
+ Time_in_time_loop	1.4383e+03	9.9861e+01% coverage
+ 	           Particles	7.263611e+02	5.1e+01%
+ 	             Maxwell	5.869264e+00	    <1%
+ 	         Diagnostics	2.114287e+00	    <1%
+ 	      Sync Particles	2.036522e+02	1.4e+01%
+ 	         Sync Fields	5.415330e+01	3.8e+00%
+ 	      Sync Densities	4.444105e+02	3.1e+01%
  
 	 Printed times are averaged per MPI process
  		 See advanced metrics in profil.txt
  
 	Diagnostics profile :
- 		         scalars.txt	2.0e-02
- 		     Performances.h5	7.6e+00
+ 		         scalars.txt	3.2e-02
+ 		     Performances.h5	2.1e+00
  
 
  END
